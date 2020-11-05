@@ -1,11 +1,10 @@
-<html>
+<html lang="en">
 <head>
 	<title>SOCE</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/soce.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-
 	<script src="js/jquery.tiltedpage-scroll.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<link rel="stylesheet" href="css/tiltedpage-scroll.css">
@@ -14,37 +13,7 @@
 
 </head>
 <body>
-	<div class="main">
-		<nav class="navbar fixed-top navbar-expand-md navbar-light bg-dark text-dark">
-		  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon "></span>
-		  </button>
-
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto ml-auto">
-		      <li class="nav-item">
-		        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#about">About</a>
-		      </li>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#event">Events</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#achieve">Achievements</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#student">Student Section</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#team">Our Team</a>
-		      </li>
-
-		    </ul>
-		  </div>
-		</nav>
+	<div class="main" id="fullpage">
 		<section class="header" id="home">
 			<div class="content-box">
 				<div class="logo">
@@ -57,13 +26,13 @@
 			<div class="content-box">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-12 col-sm-6 para" data-aos="zoom-in">
-							<h1>About SOCE</h1>
-							<p class="all">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis sed nunc non consectetur. Aenean rhoncus dolor id tempus euismod. Duis tempus velit nulla, ut placerat felis porttitor nec. Nulla mattis dictum ipsum et dapibus. Aenean ullamcorper tellus ac purus laoreet, in facilisis nibh consequat. Aenean suscipit nisl tincidunt nisi mollis tristique. Maecenas finibus mauris vel mattis faucibus. Aenean tellus arcu, facilisis a tortor sed, imperdiet suscipit massa. Nullam leo orci, molestie maximus feugiat et, porttitor eu purus. Aliquam malesuada pharetra. Vivamus vitae mollis mi, et eleifend lorem.</p>
-							<a class="btn btn-primary be text-dark" href="sections/about/about.html" role="button">Know more</a>
+						<div class="col-12 col-sm-6 about" id="img">
+					    	<img src="assets/about.png" data-aos="fade-right">
 					    </div>
-					    <div class="col-12 col-sm-6 about">
-					    	<img src="assets/about.png" data-aos="zoom-in">
+						<div class="col-12 col-sm-6 para" data-aos="fade-left">
+							<h1>About SOCE</h1>
+							<p class="all">SOCE (society of civil engineers, IIT Kanpur) is a non-profit organization. It serves as a link between enrolled civil engineering students, alumni and professors at IIT Kanpur. This society is an effort to allow free communication and sharing of ideas and information among all. </p>
+							<a class="btn btn-primary be text-dark" href="sections/about/about.html" role="button">Know more</a>
 					    </div>
 					</div>
 				
@@ -75,9 +44,9 @@
 			<div class="content-box">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-12 col-sm-6 para">
+						<div class="col-12 col-sm-6 para"id="img">
 							<h1>Events</h1>
-							<p class="all" data-aos="fade-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis sed nunc non consectetur. Aenean rhoncus dolor id tempus euismod. Duis tempus velit nulla, ut placerat felis porttitor nec. Nulla mattis dictum ipsum et dapibus. Aenean ullamcorper tellus ac purus laoreet, in facilisis nibh consequat. Aenean suscipit nisl tincidunt nisi mollis tristique. Maecenas finibus mauris vel mattis faucibus. Aenean tellus arcu, facilisis a tortor sed, imperdiet suscipit massa. Nullam leo orci, molestie maximus feugiat et, porttitor eu purus. Aliquam malesuada pharetra risus. Vivamus vitae mollis mi, et eleifend lorem.</p>
+							<p class="all" data-aos="fade-left"> SOCE organizes various events. it has organized introductory sessions for incoming batches for students in civil engineering Department. Introductory sessions are primarily focused on introducing the new students to the functions of the society as well as the prospects of choosing civil engineering at IIT Kanpur. SOCE also organizes live sessions to clear doubts and confusions regarding career choices and scopes in civil engineering. SOCE organized series of talks with Alumni to remove all confusion and doubts that student had regarding scopes in civil engineering. </p>
 							<a class="btn btn-primary be text-dark" href="sections/events/events.html" role="button">Know more</a>
 
 					    </div>
@@ -94,13 +63,13 @@
 			<div class="content-box">
 				<div class="container-fluid">
 					<div class="row">
+						<div class="col-12 col-sm-6 about stu" id="img">
+					    	<img src="assets/student2.png" data-aos="fade-right">
+					    </div>
 						<div class="col-12 col-sm-6 para">
 							<h1>Faculty</h1>
 							<p class="all" data-aos="fade-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis sed nunc non consectetur. Aenean rhoncus dolor id tempus euismod. Duis tempus velit nulla, ut placerat felis porttitor nec. Nulla mattis dictum ipsum et dapibus. Aenean ullamcorper tellus ac purus laoreet, in facilisis nibh consequat. Aenean suscipit nisl tincidunt nisi mollis tristique. Maecenas finibus mauris vel mattis faucibus. Aenean tellus arcu, facilisis a tortor sed, imperdiet suscipit massa. Nullam leo orci, molestie maximus feugiat et, porttitor eu purus. Aliquam malesuada pharetra risus. Vivamus vitae mollis mi, et eleifend lorem.</p>
 							<a class="btn btn-primary stu text-dark" href="sections/faculty/faculty.html" role="button">Know more</a>
-					    </div>
-					    <div class="col-12 col-sm-6 about stu">
-					    	<img src="assets/student2.png" data-aos="zoom-in">
 					    </div>
 					</div>
 				
@@ -117,8 +86,8 @@
 							<p class="all" data-aos="fade-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis sed nunc non consectetur. Aenean rhoncus dolor id tempus euismod. Duis tempus velit nulla, ut placerat felis porttitor nec. Nulla mattis dictum ipsum et dapibus. Aenean ullamcorper tellus ac purus laoreet, in facilisis nibh consequat. Aenean suscipit nisl tincidunt nisi mollis tristique. Maecenas finibus mauris vel mattis faucibus. Aenean tellus arcu, facilisis a tortor sed, imperdiet suscipit massa. Nullam leo orci, molestie maximus feugiat et, porttitor eu purus. Aliquam malesuada pharetra risus. Vivamus vitae mollis mi, et eleifend lorem.</p>
 							<a class="btn btn-primary bd text-dark" href="sections/departmental achievements/departmental-achievements.html" role="button">Know more</a>
 					    </div>
-					    <div class="col-12 col-sm-6 about bd">
-					    	<img src="assets/achieve.png" data-aos="zoom-in">
+					    <div class="col-12 col-sm-6 about bd"id="img">
+					    	<img src="assets/achieve.png" data-aos="fade-right">
 					    </div>
 					</div>
 				
@@ -130,13 +99,13 @@
 			<div class="content-box">
 				<div class="container-fluid">
 					<div class="row">
+						<div class="col-12 col-sm-6 about stu" id="img">
+					    	<img src="assets/student2.png" data-aos="fade-right">
+					    </div>
 						<div class="col-12 col-sm-6 para">
 							<h1>Student Section</h1>
 							<p class="all" data-aos="fade-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis sed nunc non consectetur. Aenean rhoncus dolor id tempus euismod. Duis tempus velit nulla, ut placerat felis porttitor nec. Nulla mattis dictum ipsum et dapibus. Aenean ullamcorper tellus ac purus laoreet, in facilisis nibh consequat. Aenean suscipit nisl tincidunt nisi mollis tristique. Maecenas finibus mauris vel mattis faucibus. Aenean tellus arcu, facilisis a tortor sed, imperdiet suscipit massa. Nullam leo orci, molestie maximus feugiat et, porttitor eu purus. Aliquam malesuada pharetra risus. Vivamus vitae mollis mi, et eleifend lorem.</p>
 							<a class="btn btn-primary stu text-dark" href="sections/student's section/student-section.html" role="button">Know more</a>
-					    </div>
-					    <div class="col-12 col-sm-6 about stu">
-					    	<img src="assets/student2.png" data-aos="zoom-in">
 					    </div>
 					</div>
 				
@@ -153,8 +122,8 @@
 							<p class="all" data-aos="fade-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis sed nunc non consectetur. Aenean rhoncus dolor id tempus euismod. Duis tempus velit nulla, ut placerat felis porttitor nec. Nulla mattis dictum ipsum et dapibus. Aenean ullamcorper tellus ac purus laoreet, in facilisis nibh consequat. Aenean suscipit nisl tincidunt nisi mollis tristique. Maecenas finibus mauris vel mattis faucibus. Aenean tellus arcu, facilisis a tortor sed, imperdiet suscipit massa. Nullam leo orci, molestie maximus feugiat et, porttitor eu purus. Aliquam malesuada pharetra risus. Vivamus vitae mollis mi, et eleifend lorem.</p>
 							<a class="btn btn-primary team text-dark" href="sections/team/team.html" role="button">Know more</a>
 					    </div>
-					    <div class="col-12 col-sm-6 about team">
-					    	<img src="assets/team.png" data-aos="zoom-in">
+					    <div class="col-12 col-sm-6 about team" id="img">
+					    	<img src="assets/team.png" data-aos="fade-right">
 					    </div>
 					</div>
 				
@@ -165,15 +134,28 @@
 
 	</div>
 	<script>
-
+	if (screen && screen.width > 1200) { 
+		document.write(
 	  $(".main").tiltedpage_scroll({
 	      sectionContainer: "> section",
 	      angle:50,
 	      opacity: true,              
 	      scale:true,                
 	      outAnimation:true
-	  });
-
+	  })
+		);
+	}
+	if (screen && screen.width < 1200) {      
+		document.write(
+			$(".main").tiltedpage_scroll({
+	      sectionContainer: "> section",
+	      angle:false,
+	      opacity: true,              
+	      scale:false,                
+	      outAnimation:true
+		})
+		);
+	}
 	</script>
 	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	  <script>
@@ -182,6 +164,5 @@
 	    	duration:1100
 	    });
 	  </script>
-
 </body>
 </html> 
