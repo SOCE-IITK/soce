@@ -115,4 +115,7 @@ img{
 		justify-content:center;
 		align-content:center;
 	}
+	#img{
+		height: 60vw;
+	}
 }
