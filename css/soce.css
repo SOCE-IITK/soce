@@ -9,10 +9,11 @@ html{
 body{
 	overflow-x:hidden;
 	background:black;
+	text-shadow: 0.1vmin 0.1vmin rgba(0, 0, 0, 0.39);
 }
 .content-box{
 	background:#f4f3ff;
-	width:100%;
+	width:95vw;
 	height:100vh;
 	box-sizing:border-box;
 	background-position:center;
@@ -21,17 +22,19 @@ body{
 h1{
 	padding-top:20px;
 	text-align:center;
-	font-size:3vw
+	font-size:3vw;
 }
 h1::after{
 	content:'';
 	display:block;
 	height:3px;
-	margin:20px auto 50px;
 }
 .about_us{
 	overflow-x:hidden;
 	overflow-y:hidden;
+}
+p{
+	text-align: justify;
 }
 .about{
 	background:#c21fc2;
@@ -103,6 +106,7 @@ img{
 		}
 	.content-box{
 			height:60vw;
+			width:100vw;
 		}
 		section{
 			height:60vw;
