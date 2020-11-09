@@ -1,96 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans",sans-serif;
-    box-sizing: border-box;
-}
-
 body{
-    min-height: 100vh;
-    
-    align-items: center;
-    justify-content: center;
-    background-color: #2d3035;
+    background-image:url("about-back.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:"linotte";
+    color:white;
+    font-size:3vh;
 }
-
-.about-section{
-    display: flex;
-    flex-direction: row-reverse;
-    background: url(pic1.jpg) repeat center;
-     background-size: 55%; 
-    background-color: #2d3035;
-     overflow: hidden; 
-    padding: 100px 0;
-} 
-
-
-
-.inner-container{
-    width: 55%;
-    float: right;
-    background-color: #2d3035;
-    padding: 150px;
+section{
+	text-align:center;
 }
-.inner-container:hover{
-    /* margin-top:-5px; */
-   /* margin-bottom:-10px;  */
-   box-shadow:0px 0px 40px white;
+.head{
+	font-family:"northwestbold";
+	font-size:20vh;
+	color:white;
+	text-align: center;
 }
-
-.inner-container h1{
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
-    color:#ea5e71;
-}
-
+.head p{
+	border:1vh solid white;
+	margin-top:8vh;
+	width:70vw;
+	margin-left:13vw;
+	padding-bottom:5vh;
+}  
 .text{
-    font-size: 13px;
-    color: #b9b9b9;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
+    padding:0 20vmin 0 15vmin;
+    text-align:justify;
 }
-
-.banner h1{
-    color: #ffffff
+iframe{
+margin:15vmin;
+width:30vw;
+height: 50vw;
 }
-
-/* .inner-container  {
-    border-style: ridge;
-    border-color: blue;
-    border-width: 0.1cm;
-} */
-
-/* h1.about {
-    border-left: 5px ridge #66CCFF ;
-    background-color: #CCFFFF;
-    
-} */
-
-
-
 @media screen and (max-width:1200px){
-    .inner-container{
-        padding: 80px;
+    .head{
+        font-family:"northwestbold";
+        font-size:10vw;
+        color:white;
+        text-align: center;
     }
-}
-
-@media screen and (max-width:1000px){
-    .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
+    .text{
+        padding:10vmin;
     }
-    .inner-container{
-        width: 100%;
+    body{
+        width:100vw;
     }
-}
-
-@media screen and (max-width:600px){
-    .about-section{
-        padding: 0;
-    }
-    .inner-container{
-        padding: 60px;
-    }
+    iframe{
+        width:70vw;
+        height: 80vw;
+        }
 }

@@ -1,10 +1,8 @@
 body{
 	margin:0;
 	padding:0;
-	overflow-x:hidden;
-}
-.firstpage{
-	min-height:100vh;
+  overflow-x:hidden;
+  color:white;
 }
 .head1{
 	font-size:600%;
@@ -17,7 +15,7 @@ body{
 }
 .head{
 	font-size:250%;
-	border-bottom:1px solid black;
+	border-bottom:1px solid white;
 	}
 .subhead{
 	font-size:200%;
@@ -93,7 +91,7 @@ body{
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a white background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.5);
 }

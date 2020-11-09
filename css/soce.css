@@ -4,16 +4,16 @@ html{
 *{
 	margin:0;
 	padding:0;
-	font-family:'Poppins',sans-serif;
 }
 body{
 	overflow-x:hidden;
 	background:black;
 	text-shadow: 0.1vmin 0.1vmin rgba(0, 0, 0, 0.39);
+	font-family: "linotte";
 }
 .content-box{
 	background:#f4f3ff;
-	width:95vw;
+	width:96vw;
 	height:100vh;
 	box-sizing:border-box;
 	background-position:center;
@@ -23,11 +23,13 @@ h1{
 	padding-top:20px;
 	text-align:center;
 	font-size:3vw;
+	font-family:"northwestbold";
 }
 h1::after{
 	content:'';
 	display:block;
 	height:3px;
+	font-family:"northwestbold";
 }
 .about_us{
 	overflow-x:hidden;
@@ -65,7 +67,6 @@ p{
 	padding-left:10%;
 	padding-right:10%;
 	font-size:1.5vw;
-	font-family: 'Roboto', sans-serif;
 
 }
 .be{
@@ -75,7 +76,7 @@ p{
 	overflow-x:hidden;
 }
 img{
-	width:50vw;
+	width:45vw;
 }
 .bd{
 	background:white !important;
@@ -123,3 +124,11 @@ img{
 		height: 60vw;
 	}
 }
+@font-face {
+	font-family: "linotte";
+	src: url("../fonts/Linotte\ Regular.otf");
+  }
+  @font-face {
+	font-family: "northwestbold";
+	src: url("../fonts/NorthwestBold-M8xx.otf");
+  }
