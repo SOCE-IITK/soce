@@ -45,6 +45,35 @@ img{
 	box-shadow:0.2vh 0.2vh 1vh rgba(0,0,0,1);
 	
 } 
+.card_fac p{
+	color:white;
+}
+.card_fac a{
+	color:white;
+	text-decoration:none;
+}
+.card_fac{
+	background-color:rgba(0,0,0,0.7);
+	box-shadow:0vh 0vh 2vh rgba(0,0,0,0.5);
+	margin-left:5vw;
+	margin-bottom: 2vh;
+	text-align: center;
+	padding: 3vh 0vh ;
+	width:19vw;
+	font-family:"linotte";
+	font-size:2.5vh;
+	display:inline-block;
+}
+img{
+	width:20vh;
+	height:20vh;
+	object-fit: cover;
+    object-position: center;
+	border-radius: 50%;
+	border:1px solid white;
+	box-shadow:0.2vh 0.2vh 1vh rgba(0,0,0,1);
+	
+} 
 .card p{
 	color:white;
 }
@@ -61,7 +90,6 @@ img{
 	background-color: #fff;
 	text-align: center;
 	font-size: 3vh;
-	margin: 0 0.5vw;
 	display: block;
 	border-radius: 50%;
 	position: relative;
@@ -70,6 +98,9 @@ img{
   }
   ul {
 	display: flex;
+	justify-content: space-around;
+	width:100%;
+	padding-inline-start:0px;
   }
   ul li{
 	  list-style: none;
@@ -138,6 +169,10 @@ img{
 		width:70vw;
 		margin-left:0vw;
 	}
+	.card_fac{
+		width:70vw;
+		margin-left:0vw;
+	}
 	body{
 		width:100vw;
 	}
@@ -154,4 +189,12 @@ img{
 		margin-left:4vw;
 		text-align: initial;
 	}
+  }
+
+  .card_fac ul li:nth-child(1) a:before{
+	background: #3b5999;
+  }
+  
+  .card_fac ul li:nth-child(2) a:before{
+	background: #dd4b39;
   }
