@@ -1,10 +1,28 @@
 <!DOCTYPE html>
     <head>
         <link rel="stylesheet" type="text/css" href="events.css">
-        <script src="events.js"></script>
+		<script src="events.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+		<link rel="stylesheet" href="../../css/navbar.css">
 	</head>
 	
     <body background="image.jpg">
+		<div class="baricon" id=container onclick="myFunction()">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+		<div class="nav"id="nav">
+			<a href="https://www.facebook.com/soce.iitk"><i class="fa fa-facebook" aria-hidden="true" id="fb"></i></a>
+			<a href="https://www.linkedin.com/company/soce-iit-kanpur/"><i class="fa fa-linkedin" aria-hidden="true" id="lin"></i></a>
+			<a href="mailto:soce@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true" id="mail"></i></a>
+			<a class="navlink" href="sections/about/about.html"> About SOCE</a>
+			<a class="navlink" href="sections/events/events.html">Events</a>
+			<a class="navlink" href="sections/faculty/faculty.html">Faculty</a>
+			<a class="navlink" href="sections/departmental achievements/departmental-achievements.html">Departmental Achievements</a>
+			<a class="navlink" href="sections/student's section/student-section.html">Student's Section</a>
+			<a class="navlink" href="sections/team/team.html">Our Team</a>
+		</div>
 	<font color=white>
         <div class="firstpage">
 			<p class="head1">EVENTS</p>
@@ -134,5 +152,11 @@
 			</script>
 		</div>
 	</font>
+	<script>
+		function myFunction() {
+		  document.getElementById("container").classList.toggle("change");
+		  document.getElementById("nav").classList.toggle("expand")
+		}
+		</script>
     </body>
 </html>
