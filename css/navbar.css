@@ -14,8 +14,8 @@ body{
 	z-index:3;
 }
 .nav{
-	height: 100vh;
 	width:99vw;
+	height:100vh;
 	background-color: white;
 	position: fixed;
 	top:0;
@@ -27,7 +27,8 @@ body{
 	background-image: url("../assets/nav-t.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size:100vw 100vh;
+	background-size:cover;
+	background-position: center;
 	font-family: "northwestbold";
 	color:white;
 	display:flex;
@@ -73,8 +74,8 @@ body{
 }
 #fb{
 	color:white;
-	text-shadow:0.2vmin 0.2vmin black;
-	box-shadow:0.2vmin 0.2vmin black;
+	text-shadow:0.1vmin0.1vmin black;
+	box-shadow:0.1vmin 0.1vmin black;
 	margin-top:30vh;
 	font-size:3.8vh;
 	border:3px solid white;
@@ -94,8 +95,8 @@ body{
 }
 #lin{
 	color:white;
-	text-shadow:0.2vmin 0.2vmin black;
-	box-shadow:0.2vmin 0.2vmin black;
+	text-shadow:0.1vmin 0.1vmin black;
+	box-shadow:0.1vmin 0.1vmin black;
 	font-size:3.5vh;
 	margin-top:40vh;
 	left:0.5vw;
@@ -115,8 +116,8 @@ body{
 }
 #mail{
 	color:white;
-	text-shadow:0.2vmin 0.2vmin black;
-	box-shadow:0.2vmin 0.2vmin black;
+	text-shadow:0.1vmin 0.1vmin black;
+	box-shadow:0.1vmin 0.1vmin black;
 	font-size:3.5vh;
 	left:0.5vw;
 	border:3px solid white;
@@ -154,16 +155,15 @@ body{
 }
 .navlink{
 	color:white;
-	text-shadow:0.2vmin 0.2vmin black;
+	text-shadow:0.1vmin 0.1vmin black;
     text-align: center;
     margin-left: 5vw;
-    width:90vw;
     font-size:8vh;
     display: block;
     text-decoration: none;
 	transition: ease-in-out 0.5s;
 	position: relative;
-	bottom:5vh;
+	bottom:10vh;
 }
 .navlink:hover{
     transform:scale(1.2);
@@ -172,7 +172,6 @@ body{
 }
 @media screen and (max-width:1200px){
     .nav{
-        height: 100vh;
         width:100vw;
         transform: translate(100vw,0);
     }
