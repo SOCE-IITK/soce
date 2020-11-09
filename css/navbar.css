@@ -1,3 +1,15 @@
+body{
+	background-color:black;
+}
+.logoimg{
+	height:8vh;
+	object-fit: cover;
+	object-position: center;
+	width:initial;
+	position: fixed;
+	top:10px;
+	z-index:3;
+}
 .nav{
 	height: 100vh;
 	width:99vw;
@@ -8,7 +20,7 @@
 	z-index: 2;
     box-shadow: 0 0 1vh rgba(0,0,0,0.5);
     transition: 0.4s;
-    transform: translate(95vw,0);
+	transform: translate(95vw,0);
 }
 .baricon{
 	background-color:#a4161a;
@@ -57,9 +69,9 @@
 	width: 5.5vh;
 	border-radius: 50%;
 	text-align: center;
-	padding-top: 0.5vh;
+	padding-top: 0.8vh;
     position:absolute;
-    transition: ease-in-out 0.5s;
+	transition: ease-in-out 0.5s;
 }
 #fb:hover{
     color:#3b5999;
@@ -169,3 +181,15 @@
         -webkit-transform: translate(0,0);
     }
 }
+@font-face {
+	font-family: "linotte";
+	src: url("../fonts/Linotte\ Regular.otf");
+  }
+@font-face {
+	font-family: "bioliquid";
+	src: url("../fonts/bioliquid-Regular.ttf");
+  }
+  @font-face {
+	font-family: "northwestbold";
+	src: url("../fonts/NorthwestBold-M8xx.otf");
+  }

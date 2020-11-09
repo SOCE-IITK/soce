@@ -1,120 +1,157 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
-
 body{
 	margin:0;
-	padding:0;
+	padding-top:2vh;
+	background: url(back.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center;
+	width:96vw;
 }
-
-*{
-	box-sizing: border-box;
+section{
+	text-align:center;
 }
-
-.container{
-	max-width:1140px;
-	margin:auto;
-	position: relative;
-	min-height: 1px;
-}
-
-.team{
-	min-height: 100vh;
-	padding:60px 15px;
-	background: url(back.jpg) repeat center;
-	/* background-color:#22252a;  */
-	float: left;
-	width: 100%;
-}
-.team h1{
-	font-size: 36px;
-	font-family: open sans;
-	font-weight: 700;
-	color:#ffffff;
-	margin:0;
-	padding-bottom:60px;
+.head{
+	font-family:"northwestbold";
+	font-size:20vh;
+	color:white;
 	text-align: center;
 }
-.team .card{
-	width:25%;
-	float: left;
-	padding:0px 15px;
+.head p{
+	border:1vh solid white;
+	margin-top:8vh;
+	width:70vw;
+	margin-left:13vw;
+	padding-bottom:5vh;
+}  
+.card{
+	background-color:rgba(0,0,0,0.7);
+	box-shadow:0vh 0vh 2vh rgba(0,0,0,0.5);
+	margin-left:5vw;
+	margin-bottom: 2vh;
+	text-align: center;
+	padding: 3vh 0vh ;
+	width:19vw;
+	font-family:"linotte";
+	font-size:2.5vh;
+	display:inline-block;
 }
-.team .card .box {
-	padding:15px;
-	margin:15px;
-	background-color: #2d3035;
-	border-radius:5px;
-	transition: margin 1s ease,box-shadow 1s ease;
+img{
+	width:20vh;
+	height:20vh;
+	object-fit: cover;
+    object-position: center;
+	border-radius: 50%;
+	border:1px solid white;
+	box-shadow:0.2vh 0.2vh 1vh rgba(0,0,0,1);
+	
+} 
+.card p{
+	color:white;
 }
-.team .card .box:hover{
-	 /* margin-top:-5px; */
-	/* margin-bottom:-10px;  */
-	box-shadow:0px 0px 40px white;
+.card a{
+	color:white;
+	text-decoration:none;
 }
-.team .card .box img{
-	width:150px;
+.mobile a i{
+	margin-right:1vw;
+}
+  ul li a {
+	width: 5vh;
+	height: 5vh;
+	background-color: #fff;
+	text-align: center;
+	font-size: 3vh;
+	margin: 0 0.5vw;
 	display: block;
-	margin:10px auto;
-	border-radius:50%;
-
-}
-
-.team .card .box h4{
-	font-size: 20px;
-	font-family: open sans;
-	margin:20px 0px 10px;
-	color:#ea5e71;
-	text-align: center;
-	font-weight: 700;
-}
-
-.team .card .box h5{
-	font-size:16px;
-	font-family: open sans;
-	font-weight: 600;
-	color:#b9b9b9;
-	margin:0px 0px 15px;
-	text-align: center;
-}
-.team .card .box p{
-	color:#b9b9b9;
-	font-size: 15px;
-	font-family: open sans;
-	font-weight: 400;
-	line-height: 24px;
-	text-align: center;
-	padding:0px 20px;
-}
-
-
-
-
-/*responsive*/
-
-@media(max-width: 991px){
-	.team .card{
-		width:50%;
-		margin-bottom:30px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid #fff;
+  }
+  ul {
+	display: flex;
+  }
+  ul li{
+	  list-style: none;
+	  
+  }
+  ul li a i {
+	margin-top:0.8vh;
+	color: #262626;
+	transition: .5s;
+  }
+  
+  ul li a:hover i {
+	color: #fff;
+	transform: rotateY(360deg);
+  }
+  
+  ul li a:before {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f00;
+	transition: .5s;
+  }
+  
+  ul li a:hover:before {
+	top: 0;
+  }
+  
+  ul li:nth-child(1) a:before{
+	background: #3b5999;
+  }
+  
+  ul li:nth-child(2) a:before{
+	background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  }
+  
+  ul li:nth-child(3) a:before {
+	background: #0077b5;
+  }
+  
+  ul li:nth-child(4) a:before {
+	background: #dd4b39;
+  }
+  .heading{
+	  font-size:5vh;
+	  width:85vw;
+	  border-bottom: 2px solid white;
+	  font-family:"northwestbold";
+	  color:white;
+	  margin-left:4vw;
+	  text-align: initial;
+  }
+  @media screen and (max-width:1200px){
+	  .head{
+		  font-size:15vw;
+		  text-align: center;
+		  margin:0 10vw;
+	  }
+	  .head p{
+		margin-left:0vw;
+	  }
+	  .card{
+		width:70vw;
+		margin-left:0vw;
 	}
-}
-
-@media(max-width:550px){
-	.team .card{
-		width:100%;
+	body{
+		width:100vw;
 	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.head p{
+		width:initial;
+		padding-bottom:5vh;
+	}  
+	.heading{
+		font-size:10vw;
+		width:85vw;
+		border-bottom: 2px solid white;
+		font-family:"northwestbold";
+		color:white;
+		margin-left:4vw;
+		text-align: initial;
+	}
+  }
