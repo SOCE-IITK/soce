@@ -25,16 +25,16 @@ section{
 	padding-top:10vmin;
 	padding-bottom:15vmin;
 	width:70vw;
-	margin-left:13vw;
 }  
 .text{
-    padding:0 20vmin 0 15vmin;
+    padding:0 5vw 0 10vw;
     text-align:justify;
+    width:80vw;
 }
 iframe{
-margin:5vh 25vw;
-width:50vw;
-height: 80vw;
+margin:5vh 30vw 2vh 35vw;
+width:30vw;
+height: 40vw;
 }
 @media screen and (max-width:1200px){
     .head{
@@ -52,6 +52,7 @@ height: 80vw;
     .text{
         padding:0 5vmin 0 5vmin;
         text-align:justify;
+        width:90vw;
     }
     iframe{
         margin:2vh 5vw;

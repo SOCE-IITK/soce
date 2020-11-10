@@ -88,7 +88,7 @@ body{
 	text-align: center;
     position:absolute;
 	transition: ease-in-out 0.5s;
-	line-height: 5vh;
+	line-height: 6vh;
 	left:0.5vw;
 }
 #fb:hover{
