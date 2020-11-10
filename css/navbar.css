@@ -203,7 +203,11 @@ body{
     .expand {
         transform: translate(0,0);
         -webkit-transform: translate(0,0);
-    }
+	}
+	.change .bar3 {
+		-webkit-transform: rotate(45deg) translate(-4px, -4px);
+		transform: rotate(45deg) translate(-4px, -4px);
+	  }
 }
 @font-face {
 	font-family: "linotte";
