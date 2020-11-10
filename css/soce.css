@@ -7,12 +7,19 @@ html{
 }
 body{
 	overflow-x:hidden;
-	background-color:white;
+	background-color:black;
 	text-shadow: 0.1vmin 0.1vmin rgba(0, 0, 0, 0.39);
-	font-family: "linotte";
+	font-family: "linotte"!important;
+	color:white !important;
+}
+.about_us{
+	background-color: rgb(49, 49, 49);
+}
+.header{
+	background-color: rgb(49, 49, 49);
 }
 .content-box{
-	background:#f4f3ff;
+	background:black;
 	width:96vw;
 	height:100vh;
 	box-sizing:border-box;
@@ -22,8 +29,9 @@ body{
 h1{
 	padding-top:20px;
 	text-align:center;
-	font-size:3vw;
-	font-family:"northwestbold";
+	font-size:4vw !important;
+	font-family:"northwestbold" !important;
+	text-transform: uppercase;
 }
 h1::after{
 	content:'';
@@ -82,7 +90,7 @@ img{
 	background:white !important;
 }
 .second{
-	background:#c21fc2;
+	background:#c21fc2 !important;
 }
 .third{
 	background:#ffc107;
@@ -100,6 +108,9 @@ img{
 }
 .ex{
 	background:#c21fc2 !important;
+}
+.faculty{
+	background:#ffc107 !important;
 }
 @media screen and (max-width:1200px){
 	.about_us{

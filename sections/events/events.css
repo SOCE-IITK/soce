@@ -3,24 +3,55 @@ body{
 	padding:0;
   overflow-x:hidden;
   color:white;
+  width:100vw;
+  background-image:url("event.jpg");
+  background-attachment: fixed;
+  background-size:cover;
+  background-repeat:repeat;
+  background-position: center;
+  font-family:"linotte";
+  line-height: 1.5;
 }
-.head1{
-	font-size:600%;
+b{
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+section{
 	text-align:center;
-	padding-top:20vh;
-	}
-.secondpage{
-	width:80vw;
-	margin-left:10vw;
 }
 .head{
+	font-family:"northwestbold";
+	font-size:20vh;
+	color:white;
+	text-align: center;
+	display:flex;
+	justify-content: center;
+  align-items: baseline;
+  text-transform: uppercase;
+	
+}
+.head p{
+	border:1vh solid white;
+	width:70vw;
+	padding-top:10vmin;
+	padding-bottom:15vmin;
+}  
+.secondpage{
+	width:80vw;
+  margin-left:10vw;
+}
+.heading{
 	font-size:250%;
-	border-bottom:1px solid white;
+  border-bottom:1px solid white;
+  font-family:"northwestbold";
+  text-transform: uppercase;
 	}
 .subhead{
-	font-size:200%;
+	font-size:225%;
 	font-weight:bold;
-	margin-left:10vw;
+  margin-left:10vw;
+  font-family:"northwestbold";
+  text-transform: uppercase;
 }
 .thirdpage{
 	min-height:100vh;
@@ -29,8 +60,9 @@ body{
 }
 .talk{
 	width:70vw;
-	margin-left:5vw;
-	box-shadow:0px 0px 10px black;
+  margin-left:5vw;
+  background-color:rgba(0, 0, 0,0.8);
+	box-shadow:0px 0px 10px rgba(255, 255, 255,0.5);
 	margin-bottom:5vh;
 }
 .poster{
@@ -145,4 +177,27 @@ body{
 	width:65vw;
 	margin-left:2.5vw;
 	padding-bottom:2.5vw;
+}
+@media screen and (max-width:1200px){
+  body{
+    line-height: 1;
+  }
+  .head{
+    font-size:15vw;
+    text-align: center;
+    margin:0 10vw;
+  }
+  .head p{
+  margin-left:0vw;
+  }
+  .aboutposter{
+    width:50vw;
+    transform:translate(0,-10vmax);
+  }
+  .next{
+    left:50vw;
+  }
+  .uaboutposter a{
+    color:darkred;
+  }
 }
