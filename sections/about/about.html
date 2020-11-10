@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SoCE-About us</title>
-	<link rel="icon" href="../../assets/soce_logo.png" typr="image/icon type">
+	<link rel="icon" href="../../assets/soce_logo.png" type="image/icon type">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
 	<link rel="stylesheet" href="../../css/navbar.css">
 </head>
 <body>
+	<div class="pre-loader" id="preloaded">
+		<object type="text/html" class="document" data="/soce-preloader1/index.html"></object>
+	</div>
+<script>
+	window.addEventListener('load', function () {
+		document.getElementById("preloaded").style.display = "none";
+		document.getElementById("loaded").style.display = "block";
+	})
+</script>
+	<div id="loaded">
     <a href="../../index.html"><img class="logoimg" src="../../assets/soce_logo.png" ></a>
     <div class="baricon" id=container onclick="myFunction()">
 		<div class="bar1"></div>
@@ -52,7 +62,6 @@
 		doubts that student had regarding scopes in civil engineering.
 	</p>
 	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsoce.iitk&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="1" allowTransparency="true" allow="encrypted-media"></iframe>
+</div>
 </body>
-
-
 </html>

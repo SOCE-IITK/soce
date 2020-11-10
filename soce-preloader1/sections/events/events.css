@@ -1,0 +1,148 @@
+body{
+	margin:0;
+	padding:0;
+  overflow-x:hidden;
+  color:white;
+}
+.head1{
+	font-size:600%;
+	text-align:center;
+	padding-top:20vh;
+	}
+.secondpage{
+	width:80vw;
+	margin-left:10vw;
+}
+.head{
+	font-size:250%;
+	border-bottom:1px solid white;
+	}
+.subhead{
+	font-size:200%;
+	font-weight:bold;
+	margin-left:10vw;
+}
+.thirdpage{
+	min-height:100vh;
+	width:80vw;
+	margin-left:10vw;
+}
+.talk{
+	width:70vw;
+	margin-left:5vw;
+	box-shadow:0px 0px 10px black;
+	margin-bottom:5vh;
+}
+.poster{
+	width:7vmax;
+	margin:8px 8px 0vmax 8px;
+}
+.aboutposter{
+	margin-left:8vmax;
+	position:absolute;
+	width:60vw;
+	transform:translate(0,-10vmax);
+}
+.slideshow-container{
+	width:60vw;
+	margin-left:10vw;
+	overflow:hidden;
+}
+/* Hide the images by default */
+.mySlides{
+  display: none;
+  text-align:center;
+}
+.mySlides img{
+	width:60vw;
+  height:30vw;
+  object-fit:cover;
+  object-position:center;
+}
+
+/* Next & previous buttons */
+.prev{
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 5vmax;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  position:relative;
+  bottom:20vw;
+  
+}
+.next{
+	cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 5vmax;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  position:relative;
+  bottom:20vw;
+  left:54.5vw;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a white background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position:relative;
+  bottom:11vw;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity:0.4;}
+  to {opacity:1;}
+}
+
+@keyframes fade {
+   from {opacity:0.4;}
+  to {opacity:1;}
+}
+.fourthpage{
+	min-height:100vh;
+	width:80vw;
+	margin-left:10vw;
+}
+.uposter{
+	width:15vmax;
+	margin:8px 30vw 0vmax 30vw;
+}
+.uaboutposter{
+	text-align:initial;
+	width:65vw;
+	margin-left:2.5vw;
+	padding-bottom:2.5vw;
+}

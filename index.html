@@ -15,6 +15,16 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
 </head>
 <body>
+	<div class="pre-loader" id="preloaded">
+		<object type="text/html" class="document"data="soce-preloader1/index.html"></object>
+	</div>
+<script>
+	window.addEventListener('load', function () {
+		document.getElementById("preloaded").style.display = "none";
+		document.getElementById("loaded").style.display = "block";
+	})
+</script>
+	<div id="loaded">
 	<div class="baricon" id=container onclick="myFunction()">
 		<div class="bar1"></div>
 		<div class="bar2"></div>
@@ -30,7 +40,6 @@
 		<a class="navlink" href="sections/departmental achievements/departmental-achievements.html">Departmental Achievements</a>
 		<a class="navlink" href="sections/student's section/student-section.html">Student's SECTION</a>
 		<a class="navlink" href="sections/team/team.html">Our Team</a>
-	</div>
 	</div>
 	<div class="main" id="fullpage">
 		<section class="header" id="home">
@@ -201,6 +210,7 @@
 			})
 			);
 		}
-		</script>
+	</script>
+	</div>
 </body>
 </html> 

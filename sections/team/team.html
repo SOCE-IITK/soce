@@ -12,7 +12,17 @@
 	</script>
 </head>
 <body>
-	<a href="../../index.html"><img class="logoimg" src="../../assets/soce_logo.png" "></a>
+	<div class="pre-loader" id="preloaded">
+		<object type="text/html" class="document" data="/soce-preloader1/index.html"></object>
+	</div>
+<script>
+	window.addEventListener('load', function () {
+		document.getElementById("preloaded").style.display = "none";
+		document.getElementById("loaded").style.display = "block";
+	})
+</script>
+	<div id="loaded">
+	<a href="../../index.html"><img class="logoimg" src="../../assets/soce_logo.png"></a>
 	<div class="baricon" id=container onclick="myFunction()">
 		<div class="bar1"></div>
 		<div class="bar2"></div>
@@ -467,5 +477,6 @@
 			  </ul>
 		</div>
 	</section>
+	</div>
 </body>
 </html>

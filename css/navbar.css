@@ -208,6 +208,11 @@ body{
 		-webkit-transform: rotate(45deg) translate(-4px, -4px);
 		transform: rotate(45deg) translate(-4px, -4px);
 	  }
+	  .document{
+		width:100vw;
+		height:100vh;
+		   overflow: hidden;
+	}
 }
 @font-face {
 	font-family: "linotte";
@@ -233,4 +238,15 @@ body{
   /* Handle */
   ::-webkit-scrollbar-thumb {
 	background: rgb(14, 179, 9);
+  }
+  .document{
+	  width:99.5vw;
+	  height:100vh;
+	 	overflow: hidden;
+  }
+  #preloaded{
+	  display:block;
+  }
+  #loaded{
+	display:none;
   }

@@ -21,6 +21,16 @@
     </head>
 
 <body style="font-family:linotte;" >
+    <div class="pre-loader" id="preloaded">
+		<object type="text/html" class="document"data="/soce-preloader1/index.html"></object>
+	</div>
+<script>
+	window.addEventListener('load', function () {
+		document.getElementById("preloaded").style.display = "none";
+		document.getElementById("loaded").style.display = "block";
+	})
+</script>
+	<div id="loaded">
     <a href="../../index.html"><img class="logoimg" src="../../assets/soce_logo.png" ></a>
     <div class="baricon" id=container onclick="myFunction()">
 		<div class="bar1"></div>
@@ -115,7 +125,6 @@
                 
             </div>
         </div>
-    </div>
  
 
  <div class="service-content" id="services">
@@ -177,8 +186,6 @@
                     </div>
                 </div>                
             </div>
-        </div>
-    </div>
 
 <div class="parallax-content contact-content" id="resume">
         <div class="container">
@@ -199,7 +206,6 @@
                 </div>   
             </div>
         </div>
-    </div>
 
     <div class="parallax-content projects-content" id="portfolio">
         <div class="container">
@@ -244,7 +250,6 @@
                 </div>
             </div>
         </div>
-    </div>
 
 
 
@@ -314,6 +319,6 @@
           });
         });
     </script>
-
+    </div>
 </body>
 </html>
