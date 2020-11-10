@@ -15,13 +15,16 @@ section{
 	font-size:20vh;
 	color:white;
 	text-align: center;
+	display:flex;
+	justify-content: center;
+	align-items: baseline;
+	
 }
 .head p{
 	border:1vh solid white;
-	margin-top:8vh;
 	width:70vw;
-	margin-left:13vw;
-	padding-bottom:5vh;
+	padding-top:10vmin;
+	padding-bottom:15vmin;
 }  
 .card{
 	background-color:rgba(0,0,0,0.7);
@@ -178,7 +181,6 @@ img{
 	}
 	.head p{
 		width:initial;
-		padding-bottom:5vh;
 	}  
 	.heading{
 		font-size:10vw;
