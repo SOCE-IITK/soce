@@ -40,6 +40,7 @@ th {
   display:flex;
   flex-flow:row wrap;
   justify-content: space-between;
+  align-items: center;
 }
 .card{ 
 box-shadow: 0 5px 10px rgba(0,0,0,0.5);
@@ -72,6 +73,6 @@ width:32vw;
 @media screen and (max-width:1200px){
 
   .card{
-    width:80vw;
+    width:70vw;
   }
 }

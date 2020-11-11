@@ -204,9 +204,13 @@ body{
         transform: translate(0,0);
         -webkit-transform: translate(0,0);
 	}
+	.change .bar1 {
+		-webkit-transform: rotate(-45deg) translate(-9px, 15px);
+		transform: rotate(-45deg) translate(-9px, 15px);
+	  }
 	.change .bar3 {
-		-webkit-transform: rotate(45deg) translate(-4px, -4px);
-		transform: rotate(45deg) translate(-4px, -4px);
+		-webkit-transform: rotate(45deg) translate(-8px, -15px);
+		transform: rotate(45deg) translate(-8px, -15px);
 	  }
 	  .document{
 		width:100vw;
@@ -242,11 +246,16 @@ body{
   .document{
 	  width:100vw;
 	  height:100vh;
-	 	overflow: hidden;
+	  overflow: hidden;
   }
   #preloaded{
 	  display:block;
   }
   #loaded{
 	display:none;
+  }
+  .pre-loader{
+	width:100vw;
+	height:100vh;
+	overflow: hidden;
   }

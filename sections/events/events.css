@@ -3,14 +3,13 @@ body{
 	padding:0;
   overflow-x:hidden;
   color:white;
-  width:100vw;
+  width:95vw;
   background-image:url("event.jpg");
   background-attachment: fixed;
   background-size:cover;
   background-repeat:repeat;
   background-position: center;
   font-family:"linotte";
-  line-height: 1.5;
 }
 b{
   text-transform: uppercase;
@@ -24,10 +23,12 @@ section{
 	font-size:20vh;
 	color:white;
 	text-align: center;
-	display:flex;
+  display:flex;
+  align-items: center;
 	justify-content: center;
   align-items: baseline;
   text-transform: uppercase;
+  text-shadow:0.5vmin 0.5vmin black;
 	
 }
 .head p{
@@ -45,13 +46,14 @@ section{
   border-bottom:1px solid white;
   font-family:"northwestbold";
   text-transform: uppercase;
+  text-shadow:0.5vmin 0.5vmin black;
 	}
 .subhead{
 	font-size:225%;
 	font-weight:bold;
-  margin-left:10vw;
   font-family:"northwestbold";
   text-transform: uppercase;
+  text-shadow:0.5vmin 0.5vmin black;
 }
 .thirdpage{
 	min-height:100vh;
@@ -63,105 +65,28 @@ section{
   margin-left:5vw;
   background-color:rgba(0, 0, 0,0.8);
 	box-shadow:0px 0px 10px rgba(255, 255, 255,0.5);
-	margin-bottom:5vh;
+  margin-bottom:5vh;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+.utalk{
+	width:70vw;
+  margin-left:5vw;
+  background-color:rgba(0, 0, 0,0.8);
+	box-shadow:0px 0px 10px rgba(255, 255, 255,0.5);
+  margin-bottom:5vh;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
 }
 .poster{
 	width:7vmax;
-	margin:8px 8px 0vmax 8px;
+	margin:8px;
 }
 .aboutposter{
-	margin-left:8vmax;
-	position:absolute;
-	width:60vw;
-	transform:translate(0,-10vmax);
-}
-.slideshow-container{
-	width:60vw;
-	margin-left:10vw;
-	overflow:hidden;
-}
-/* Hide the images by default */
-.mySlides{
-  display: none;
-  text-align:center;
-}
-.mySlides img{
-	width:60vw;
-  height:30vw;
-  object-fit:cover;
-  object-position:center;
-}
-
-/* Next & previous buttons */
-.prev{
-  cursor: pointer;
-  color: white;
-  font-weight: bold;
-  font-size: 5vmax;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  position:relative;
-  bottom:20vw;
-  
-}
-.next{
-	cursor: pointer;
-  color: white;
-  font-weight: bold;
-  font-size: 5vmax;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  position:relative;
-  bottom:20vw;
-  left:54.5vw;
-}
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a white background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.5);
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  position:relative;
-  bottom:11vw;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity:0.4;}
-  to {opacity:1;}
-}
-
-@keyframes fade {
-   from {opacity:0.4;}
-  to {opacity:1;}
+  width:60vw;
 }
 .fourthpage{
 	min-height:100vh;
@@ -178,9 +103,23 @@ section{
 	margin-left:2.5vw;
 	padding-bottom:2.5vw;
 }
+.slick-slide img{
+  width:80vw;
+  height: 40vw;
+  object-position: center;
+  object-fit: cover;
+}
+.slick-slide{
+  margin-bottom:4vmax;
+}
+button.slick-arrow::before {
+  color: white !important;
+}
+
 @media screen and (max-width:1200px){
   body{
     line-height: 1;
+    font-size:4vw;
   }
   .head{
     font-size:15vw;
@@ -191,13 +130,32 @@ section{
   margin-left:0vw;
   }
   .aboutposter{
-    width:50vw;
-    transform:translate(0,-10vmax);
+    width:70vw;
   }
-  .next{
-    left:50vw;
+  .uaboutposter{
+    width:70vw;
   }
   .uaboutposter a{
     color:darkred;
   }
+body{
+  width:100vw;
+}
+.talk{
+	width:80vw;
+  margin-left:0vw;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+.utalk{
+  width:80vw;
+  margin-left:0;
+}
+.uposter{
+  width:50vw;
+}
+.poster{
+  width:50vw;
+}
 }
