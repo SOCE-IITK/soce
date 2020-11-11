@@ -28,7 +28,7 @@ section{
 	justify-content: center;
   align-items: baseline;
   text-transform: uppercase;
-  text-shadow:0.5vmin 0.5vmin black;
+  text-shadow:0.2vmin 0.2vmin black;
 	
 }
 .head p{
@@ -46,14 +46,14 @@ section{
   border-bottom:1px solid white;
   font-family:"northwestbold";
   text-transform: uppercase;
-  text-shadow:0.5vmin 0.5vmin black;
+  text-shadow:0.2vmin 0.2vmin black;
 	}
 .subhead{
 	font-size:225%;
 	font-weight:bold;
   font-family:"northwestbold";
   text-transform: uppercase;
-  text-shadow:0.5vmin 0.5vmin black;
+  text-shadow:0.2vmin 0.2vmin black;
 }
 .thirdpage{
 	min-height:100vh;

@@ -113,3 +113,7 @@ background-repeat: no-repeat;
     margin-top: 0px;
     height: max-content;
 }
+.card-text{
+    text-shadow: initial;
+
+}
