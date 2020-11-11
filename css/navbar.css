@@ -3,6 +3,7 @@ body{
 	margin:0;
 	padding:0;
 	text-shadow:0.2vmin 0.2vmin black;
+	overflow-x:hidden;
 }
 .logoimg{
 	height:8vh;
