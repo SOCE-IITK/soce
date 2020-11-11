@@ -207,12 +207,12 @@ body{
         -webkit-transform: translate(0,0);
 	}
 	.change .bar1 {
-		-webkit-transform: rotate(-45deg) translate(-9px, 10px);
-		transform: rotate(-45deg) translate(-4px, 10px);
+		-webkit-transform: rotate(-45deg) translate(-9px, 1.1vh);
+		transform: rotate(-45deg) translate(-4px, 1.1vh);
 	  }
 	.change .bar3 {
-		-webkit-transform: rotate(45deg) translate(-8px, -10px);
-		transform: rotate(45deg) translate(-4px, -10px);
+		-webkit-transform: rotate(45deg) translate(-8px, -1.1vh);
+		transform: rotate(45deg) translate(-4px, -1.1vh);
 	  }
 	  .document{
 		width:100vw;
