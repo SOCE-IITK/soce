@@ -70,7 +70,9 @@ text-shadow:initial;
   width : 90px ;
   height:95px ;
 }
-
+.modal-dialog-centered.modal-dialog-scrollable .modal-content{
+  text-shadow:initial;
+}
 @media screen and (max-width:1200px){
 
   .card{
