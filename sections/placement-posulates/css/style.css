@@ -1,15 +1,14 @@
 body{
-    background-image:url("");
+    background-color:white !important;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
     font-family:"linotte";
-    color:white;
+    color:black !important;
     font-size:3vh;
-}
-section{
-	text-align:center;
+    background-image:url("../placement-1.png");
+    min-width:100vw;
 }
 .head{
 	font-family:"northwestbold";
@@ -19,18 +18,58 @@ section{
     display:flex;
 	justify-content: center;
     align-items: baseline;
+    text-align:center;
 }
 .head p{
+    display:flex;
+	justify-content: center;
+    align-items: center;
 	border:1vh solid white;
 	padding-top:5vmin;
 	padding-bottom:10vmin;
 	width:70vw;
 }  
+.blogs{
+    text-shadow:none !important;
+    display: flex;
+    flex-flow:row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box img{
+    width:20vmin;
+    height:20vmin;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10vmin;
+    position: absolute;
+}
+.box{
+    width:25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2vmin;
+}
+.text{
+    width:20vw;
+    text-align: justify;
+    margin-top:10vmin;
+    padding-top:12vmin;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0,1), rgba(0, 0, 0,0.95), rgba(0, 0, 0,0.9), rgba(0, 0, 0,0.85), rgba(0, 0, 0,0.8));
+    color:white;
+    padding-left:2vmin;
+    padding-right:2vmin;
+    padding-bottom:2vmin;
+    font-size:2.5vh;
+}
+.readmore{
+    color:#fca311;
+}
 @media screen and (max-width:1200px){
     .head{
         font-size:8vw;
         text-align: center;
-        margin:0 10vw;
     }
     .head p{
       margin-left:0vw;
@@ -38,5 +77,25 @@ section{
     body{
         width:100vw;
         font-size:5vw;
+    }
+    .box img{
+        width:50vmin;
+        height:50vmin;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25vmin;
+        position: absolute;
+    }
+    .box{
+        width:90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:2vmin;
+    }
+    .text{
+        width:90vw;
+        margin-top:25vmin;
+    padding-top:27vmin;
     }
 }
