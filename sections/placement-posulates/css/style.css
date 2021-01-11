@@ -18,12 +18,12 @@ section{
     text-align: center;
     display:flex;
 	justify-content: center;
-	align-items: baseline;
+    align-items: baseline;
 }
 .head p{
 	border:1vh solid white;
-	padding-top:10vmin;
-	padding-bottom:15vmin;
+	padding-top:5vmin;
+	padding-bottom:10vmin;
 	width:70vw;
 }  
 @media screen and (max-width:1200px){

@@ -181,6 +181,9 @@ body{
     color:#a4161a ;
     text-decoration: none;
 }
+.head p{
+	border-radius:5px !important;
+}
 @media screen and (max-width:1200px){
     .nav{
         width:100vw;
