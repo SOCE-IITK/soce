@@ -17,6 +17,7 @@ body{
     text-align: center;
     display:flex;
     justify-content: center;
+    align-items: center;
 
 }
 .head p{
@@ -57,24 +58,25 @@ body{
 }
 @media screen and (max-width:1200px){
     .head{
-        font-size:10vw;
+        font-size:12vw;
         text-align: center;
+        width:90vw;
+        margin-left:5vw;
     }
     .head p{
       margin-left:0vw;
     }
     body{
         width:100vw;
-        font-size:5vw;
+        font-size:4vw;
     }
     .title{
         font-size:4.5vw;
-        transform:translate(0vw,25vmin);
+        transform:translate(0vw,28vmin);
     }
     .blog{
         width:80vw;
         margin-left:10vw;
-        text-align:initial;
     }
     .blog img{
         float:left;
