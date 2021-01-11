@@ -13,7 +13,7 @@ section{
 }
 .head{
 	font-family:"northwestbold";
-	font-size:20vh;
+	font-size:10vh;
 	color:white;
     text-align: center;
     display:flex;
@@ -28,7 +28,7 @@ section{
 }  
 @media screen and (max-width:1200px){
     .head{
-        font-size:12vw;
+        font-size:8vw;
         text-align: center;
         margin:0 10vw;
     }
