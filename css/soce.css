@@ -85,6 +85,9 @@ p{
 }
 img{
 	width:45vw;
+	object-position: center;
+	height:100vh;
+	object-fit: contain;
 }
 .bd{
 	background:white !important;
@@ -101,10 +104,19 @@ img{
 .team{
 	background:#f5e2a9 !important;
 }
+.blog{
+	background: #DBB3A7 !important;
+}
 .btn{
 	border-radius:10px !important;
 	width:130px !important;
 	font-size:20px !important;
+	border:none !important;
+	outline: none !important;
+}
+.btn:focus,.btn:active{
+	outline: none !important;
+	box-shadow: none !important;
 }
 .ex{
 	background:#c21fc2 !important;
@@ -133,6 +145,9 @@ img{
 	}
 	#img{
 		height: 60vw;
+	}
+	img{
+		height:60vw;
 	}
 }
 @font-face {

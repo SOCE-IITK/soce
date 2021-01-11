@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SoCE-Placement</title>
+	<link rel="icon" href="../../assets/soce_logo.png" type="image/icon type">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+	<link rel="stylesheet" href="../../css/navbar.css">
+</head>
+<body>
+	<div class="pre-loader" id="preloaded">
+		<object type="text/html" class="document" data="../../soce-preloader1/index.html"></object>
+	</div>
+<script>
+	window.addEventListener('load', function () {
+		document.getElementById("preloaded").style.display = "none";
+		document.getElementById("loaded").style.display = "block";
+	})
+</script>
+	<div id="loaded">
+    <a href="../../index.html"><img class="logoimg" src="../../assets/soce_logo.png" ></a>
+    <div class="baricon" id=container onclick="myFunction()">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div>
+	<div class="nav"id="nav">
+		<a target="_blank" href="https://www.facebook.com/soce.iitk"><i class="fa fa-facebook" aria-hidden="true" id="fb"></i></a>
+		<a target="_blank" href="https://www.linkedin.com/company/soce-iit-kanpur/"><i class="fa fa-linkedin" aria-hidden="true" id="lin"></i></a>
+		<a target="_blank" href="mailto:soce@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true" id="mail"></i></a>
+		<a class="navlink" href="../about/about.html"> ABOUT SOCE</a>
+		<a class="navlink" href="../events/events.html">Events</a>
+		<a class="navlink" href="../faculty/faculty.html">Faculty</a>
+		<a class="navlink" href="../departmental achievements/departmental-achievements.html">Departmental Achievements</a>
+        <a class="navlink" href="../student's section/student-section.html">Student's SECTION</a>
+        <a class="navlink" href="sections/placement/index.html">Placement Blog</a>
+		<a class="navlink" href="../team/team.html">Our Team</a>
+	</div>
+
+    <script>
+		function myFunction() {
+		  document.getElementById("container").classList.toggle("change");
+		  document.getElementById("nav").classList.toggle("expand")
+		}
+		</script>
+	<section class ="head">
+		<p>PLACEMENT BLOG</p>
+	</section>
+	
+</div>
+</body>
+</html>

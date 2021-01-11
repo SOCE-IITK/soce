@@ -5,6 +5,11 @@ body{
 	text-shadow:0.2vmin 0.2vmin black;
 	overflow-x:hidden;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .logoimg{
 	height:8vh;
 	object-fit: cover;
@@ -37,7 +42,7 @@ body{
 	font-family: "northwestbold";
 	color:white;
 	display:flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	flex-direction: column;
 }
 .baricon{
@@ -168,7 +173,7 @@ body{
     text-decoration: none;
 	transition: ease-in-out 0.5s;
 	position: relative;
-	bottom:10vh;
+	bottom:6vh;
 	text-transform:uppercase;
 }
 .navlink:hover{
