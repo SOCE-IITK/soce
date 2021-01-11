@@ -8,7 +8,7 @@ body{
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: none !important;
 }
 .logoimg{
 	height:8vh;
