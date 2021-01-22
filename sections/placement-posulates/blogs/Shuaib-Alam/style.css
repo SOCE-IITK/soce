@@ -55,6 +55,11 @@ body{
     object-position: top;
     margin-bottom:1vh ;
 }
+b{
+    text-transform: uppercase;
+    text-align: center!important;
+    font-size:200%;
+}
 .img1{
     float:left;
     margin-right:2vw;
@@ -99,5 +104,8 @@ body{
     .img2{
         float:left;
         margin-left:initial;
+    }
+    b{
+        font-size:170%;
     }
 }
