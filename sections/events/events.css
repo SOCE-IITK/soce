@@ -125,7 +125,7 @@ button.slick-arrow::before {
 }
 @media screen and (max-width:1200px){
   body{
-    line-height: 1;
+    line-height: 1.5;
     font-size:4vw;
   }
   .head{
