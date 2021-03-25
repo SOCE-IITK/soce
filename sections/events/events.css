@@ -10,10 +10,12 @@ body{
   background-repeat:repeat;
   background-position: center;
   font-family:"linotte";
+  line-height: 1.5;
 }
 b{
   text-transform: uppercase;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom:2.5px solid white;
 }
 section{
 	text-align:center;
@@ -29,7 +31,6 @@ section{
 	  align-items: baseline;
 	  text-transform: uppercase;
 	  text-shadow:0.2vmin 0.2vmin black;
-	
 }
 .head p{
 	border:1vh solid white;
@@ -115,7 +116,13 @@ section{
 button.slick-arrow::before {
   color: white !important;
 }
-
+.uaboutposter a{
+  color:darkred;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom:2.5px solid darkred;
+  font-weight: 700;
+}
 @media screen and (max-width:1200px){
   body{
     line-height: 1;
@@ -134,9 +141,6 @@ button.slick-arrow::before {
   }
   .uaboutposter{
     width:70vw;
-  }
-  .uaboutposter a{
-    color:darkred;
   }
 body{
   width:100vw;
