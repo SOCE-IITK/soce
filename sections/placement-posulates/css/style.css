@@ -71,6 +71,9 @@ body{
 .box:nth-child(2) .text{
     background-image: linear-gradient(to right bottom, #370519, #4c0724, #630a2e, #7b0c39, #930f44);
 }
+.box:nth-child(3) .text{
+    background-image: linear-gradient(to left top, #0a6491, #064f72, #053b54, #052739, #01151f);
+}
 .readmore{
     color:#fca311;
 }
