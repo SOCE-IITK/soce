@@ -65,13 +65,13 @@ body{
     box-shadow: 2px 2px 5px black;
     background-image: linear-gradient(to left top, #26845c, #1e694c, #194f3c, #15362b, #101f1a);
 }
-.box:nth-child(1) .text{
+.box:nth-child(3n+1) .text{
     background-image: linear-gradient(to left top, #26845c, #1e694c, #194f3c, #15362b, #101f1a);
 }
-.box:nth-child(2) .text{
+.box:nth-child(3n+2) .text{
     background-image: linear-gradient(to right bottom, #370519, #4c0724, #630a2e, #7b0c39, #930f44);
 }
-.box:nth-child(3) .text{
+.box:nth-child(3n) .text{
     background-image: linear-gradient(to left top, #0a6491, #064f72, #053b54, #052739, #01151f);
 }
 .readmore{
