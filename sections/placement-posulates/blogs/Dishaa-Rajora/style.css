@@ -44,6 +44,7 @@ body{
     width:85vw;
     margin-left:5vw;
     text-align:justify;
+    word-spacing: 5px;
 }
 .blog img{
     border:2px solid white;
