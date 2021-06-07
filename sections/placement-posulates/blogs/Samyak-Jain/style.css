@@ -75,6 +75,12 @@ b{
     text-decoration:none;
     text-shadow: 1px 1px rgba(0,0,0,1);
 }
+.memetext{
+    display:block; 
+    width: 100vw;
+    text-align: center;
+    margin-right:10vw;
+}
 @media screen and (max-width:1200px){
     .head{
         font-size:12vw;
@@ -115,5 +121,10 @@ b{
     .img3{
         margin:0vw 10vw 0vw 10vw;
         width:80vw;
+    }
+    .memetext{
+        display:block; 
+        width: 80vw;
+        text-align: center;
     }
 }
