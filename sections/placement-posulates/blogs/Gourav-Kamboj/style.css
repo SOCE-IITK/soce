@@ -1,0 +1,130 @@
+body{
+    background-color:whitesmoke !important;
+    font-family:"linotte";
+    color:white !important;
+    font-size:2.8vh;
+    width:96vw;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image:url("../../placement-1.png");
+    background-size:cover;
+}
+.head{
+	font-family:"northwestbold";
+	font-size:10vh;
+	color:white;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.head p{
+    display:flex;
+	justify-content: center;
+	border:1vh solid white;
+	padding-top:5vmin;
+	padding-bottom:10vmin;
+    width:70vw;
+}  
+.title{
+    font-size:3vh;
+    position: absolute;
+    align-self:text-bottom;
+    transform:translate(20vw,12vmin);
+}
+/*.blog p{
+    text-shadow:none !important;
+}
+.blog li{
+    text-shadow:none !important;
+}*/
+.blog{
+    width:85vw;
+    margin-left:5vw;
+    text-align:justify;
+    word-spacing: 5px;
+}
+b{
+    font-weight: 900;
+}
+.blog img{
+    border:2px solid white;
+    border-radius:3px;
+    width:20vw;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom:1vh ;
+    max-height: 15vw;
+}
+.img1{
+    float:left;
+    margin-right:2vw;
+}
+.img2{
+    float:right;
+    margin-left:2vw;
+}
+.img3{
+    margin:0vw 50vw 0vw 30vw;
+    width:20vw;
+}
+.links{
+    color:rgb(255, 145, 2);
+    text-decoration:none;
+    text-shadow: 1px 1px rgba(0,0,0,1);
+}
+.memetext{
+    display:block; 
+    width: 100vw;
+    text-align: center;
+    margin-right:10vw;
+}
+@media screen and (max-width:1200px){
+    .head{
+        font-size:12vw;
+        text-align: center;
+        width:90vw;
+        margin-left:5vw;
+    }
+    .head p{
+      margin-left:0vw;
+    }
+    body{
+        width:100vw;
+        font-size:4vw;
+    }
+    .title{
+        font-size:4.5vw;
+        transform:translate(0vw,28vmin);
+    }
+    .blog{
+        width:80vw;
+        margin-left:10vw;
+    }
+    .blog img{
+        border:2px solid white;
+        border-radius:3px;
+        width:80vw;
+        margin:initial;
+        max-height:initial;
+    }
+    .img1{
+        float:left;
+        margin-right:initial;
+    }
+    .img2{
+        float:left;
+        margin-left:initial;
+    }
+    .img3{
+        margin:0vw 10vw 0vw 10vw;
+        width:80vw;
+    }
+    .memetext{
+        display:block; 
+        width: 80vw;
+        text-align: center;
+    }
+}
