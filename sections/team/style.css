@@ -26,6 +26,13 @@ section{
 	padding-top:10vmin;
 	padding-bottom:15vmin;
 }  
+.head1{
+	font-size: 300%;
+	text-align: center;
+	color: white;
+	font-family:"linotte";
+	text-shadow:1vh 1vh 2vh rgba(0,0,0,0.5);
+}
 .card{
 	background-color:rgba(0,0,0,0.7);
 	box-shadow:0vh 0vh 2vh rgba(0,0,0,0.5);
@@ -151,6 +158,17 @@ img{
   ul li:nth-child(4) a:before {
 	background: #dd4b39;
   }
+  .links{
+	padding-bottom: 3vmax;
+    color:rgb(255, 145, 2);
+    text-decoration:none;
+    text-shadow: 1px 1px rgba(0,0,0,1);
+}
+ol{
+	color: white;
+	text-shadow: 1px 1px rgba(0,0,0,1);
+	margin-left: 5vmax;
+}
   .heading{
 	  font-size:5vh;
 	  width:85vw;
@@ -158,6 +176,9 @@ img{
 	  font-family:"northwestbold";
 	  color:white;
 	  margin-left:4vw;
+	  text-align: initial;
+  }
+  .old-teams{
 	  text-align: initial;
   }
   @media screen and (max-width:1200px){
@@ -201,3 +222,7 @@ img{
   .card_fac ul li:nth-child(2) a:before{
 	background: #dd4b39;
   }
+ol{
+	margin-left: 2vmax;
+	font-size: 120%;
+}
