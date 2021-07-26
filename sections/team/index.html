@@ -1,19 +1,22 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="icon" href="../../assets/soce_logo.png" typr="image/icon type">
-	<title>SOCE-Team</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="assets/soce_logo.png" typr="image/icon type">
+	<title>SOCE-IITK</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="css/soce.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="js/jquery.tiltedpage-scroll.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/tiltedpage-scroll.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
-	<link rel="stylesheet" href="../../css/navbar.css">
-	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-	</script>
 </head>
 <body>
 	<div class="pre-loader" id="preloaded">
-		<object type="text/html" class="document" data="../../soce-preloader1/index.html"></object>
+		<object type="text/html" class="document"data="soce-preloader1/index.html"></object>
 	</div>
 <script>
 	window.addEventListener('load', function () {
@@ -22,469 +25,213 @@
 	})
 </script>
 	<div id="loaded">
-		<a href="../../"><img class="logoimg" src="../../assets/soce_logo.png" ></a>
-		<div class="baricon" id=container onclick="myFunction()">
+	<div class="baricon" id=container onclick="myFunction()">
 		<div class="bar1"></div>
 		<div class="bar2"></div>
 		<div class="bar3"></div>
-	  </div>
-	  <div class="nav"id="nav">
+	</div>
+	<div class="nav"id="nav">
 		<a target="_blank" href="https://www.facebook.com/soce.iitk"><i class="fa fa-facebook" aria-hidden="true" id="fb"></i></a>
 		<a target="_blank" href="https://www.linkedin.com/company/soce-iit-kanpur/"><i class="fa fa-linkedin" aria-hidden="true" id="lin"></i></a>
 		<a target="_blank" href="mailto:soce@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true" id="mail"></i></a>
-		<a class="navlink" href="../about/"> ABOUT SOCE</a>
-		<a class="navlink" href="../events/">EVENTS</a>
-		<a class="navlink" href="../faculty/">FACULTY</a>
-		<a class="navlink" href="../departmental achievements/">DEPARTMENTAL ACHIEVEMNETS</a>
-		<a class="navlink" href="../student's section/">STUDENT'S SECTION</a>
-		<a class="navlink" href="../placement-posulates/">PLACEMENT POSULATES</a>
-		<a class="navlink" href="../team/">OUR TEAM</a>
+		<a class="navlink" href="sections/about/"> ABOUT SOCE</a>
+		<a class="navlink" href="sections/events/">EVENTS</a>
+		<a class="navlink" href="sections/faculty/">FACULTY</a>
+		<a class="navlink" href="sections/departmental achievements/">DEPARTMENTAL ACHIEVEMNETS</a>
+		<a class="navlink" href="sections/student's section/">STUDENT'S SECTION</a>
+		<a class="navlink" href="sections/placement-posulates/">PLACEMENT POSTULATES</a>
+		<a class="navlink" href="sections/team/">OUR TEAM</a>
 	</div>
-	<script>
+	<div class="main" id="fullpage">
+		<section class="header" id="home">
+			<div class="content-box">
+				<div class="logo">
+					<img src="assets/soce_logo.png" data-aos="fade-left">
+					
+				</div>
+			</div>
+		</section>
+		<section class="about_us" id="about">
+			<div class="content-box">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-sm-6 about" id="img">
+					    	<img src="assets/about.png" data-aos="fade-right">
+					    </div>
+						<div class="col-12 col-sm-6 para" data-aos="fade-left">
+							<h1>ABOUT SOCE</h1>
+							<p class="all">SOCE (Society of Civil Engineers, IIT Kanpur) is a student body. It serves as a link between enrolled Civil Engineering students, alumni and professors at IIT Kanpur. This society is an effort to allow free communication and sharing of ideas and information among all. </p>
+							<a class="btn btn-primary second text-dark" href="sections/about/" role="button">Know more</a>
+					    </div>
+					</div>
+				
+				</div>
+			</div>
+			
+		</section>
+		<section class="about_us" id="event">
+			<div class="content-box">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-sm-6 para"id="img"data-aos="fade-right">
+							<h1>Events</h1>
+							<p class="all" > SOCE organizes various events. It has organized introductory sessions for incoming batches for students in Civil Engineering department. Introductory sessions are primarily focused on introducing the new students to the functions of the society as well as the prospects of choosing civil engineering at IIT Kanpur. SOCE also organizes live sessions to clear doubts and confusions regarding career choices and scopes in civil engineering. SOCE organized series of talks with Alumni to remove all confusion and doubts that student had regarding scopes in civil engineering. </p>
+							<a class="btn btn-primary be text-dark" href="sections/events/" role="button">Know more</a>
+
+					    </div>
+					    <div class="col-12 col-sm-6 about be ">
+					    	<img src="assets/event2.png" data-aos="fade-left">
+					    </div>
+					</div>
+				
+				</div>
+			</div>
+			
+		</section>
+		<section class="about_us" id="faculty">
+			<div class="content-box">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-sm-6 about faculty" id="img">
+					    	<img src="assets/faculty.png" data-aos="fade-right">
+					    </div>
+						<div class="col-12 col-sm-6 para"data-aos="fade-left">
+							<h1>Faculty</h1>
+							<p class="all" >The faculty members of the department are one of the major pillars driving the tremendous progress
+								 towards international recognition for excellence in research and teaching. Their area of interest in research
+								  and teaching spans from Structural Engineering, Geotechnical Engineering, Hydraulics & Water Resources Engineering,
+								   Transportation Engineering, Geoinformatics, Environmental Engineering and every possible venn diagram confluence of these domains.
+								    They involved in high quality research and consultancy activities, and they continue to enjoy academic leadership role in the country. 
+								Here are brief details for IIT Kanpur's Civil Engineering department faculty.</p>
+							<a class="btn btn-primary faculty text-dark" href="sections/faculty/" role="button">Know more</a>
+					    </div>
+					</div>
+				
+				</div>
+			</div>
+			
+		</section>
+		<section class="about_us" id="achieve">
+			<div class="content-box">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-sm-6 para"data-aos="fade-right">
+							<h1>DEPARTMENTAL ACHIEVEMENTS</h1>
+							<p class="all" >The Civil Department of IIT Kanpur harbors frequent publication of research papers, patents,
+								 receival of awards, fellowships, imminent positions and felicitations by its faculty, staff and students alike.
+								  Several Alumni from the department have carved a niche of prestige and respect through their achievements and positions held,
+								   and continue to do so. This comes with the equal support of state of the art lab infrastructure and latest facilities.
+								    Here we attempt to list achievements, research and patent repositories and imminent alumni of our department.</p>
+							<a class="btn btn-primary bd text-dark" href="sections/departmental achievements/" role="button">Know more</a>
+					    </div>
+					    <div class="col-12 col-sm-6 about bd"id="img">
+					    	<img src="assets/achieve.png" data-aos="fade-left">
+					    </div>
+					</div>
+				
+				</div>
+			</div>
+			
+		</section>
+		<section class="about_us" id="student">
+			<div class="content-box">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-sm-6 about stu" id="img">
+					    	<img src="assets/student2.png" data-aos="fade-right">
+					    </div>
+						<div class="col-12 col-sm-6 para" data-aos="fade-left">
+							<h1>Student Section</h1>
+							<p class="all" >This section has vast information regarding career opportunities in civil engineering extracted from the talk series
+								conducted by SOCE, important announcements about developments taking place in civil engineering, 
+								Resume of students who have grabbed internships and placement.
+								It has information about all the courses taught in civil engineering at IIT-K and information about all the enrolled students of different batches.</p>
+							<a class="btn btn-primary stu text-dark" href="sections/student's section/" role="button">Know more</a>
+					    </div>
+					</div>
+				
+				</div>
+			</div>
+			
+		</section>
+		<section class="about_us" id="blogs">
+			<div class="content-box">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-sm-6 para" data-aos="fade-right">
+							<h1>PLACEMENT POSTULATES</h1>
+							<p class="all">
+								As our college life advances towards its last phase our primary focus shifts towards getting placed in our dream jobs for which we did all this hard work. So, in order to make you all comfortable with this procedure, SoCE has come up with a new blog series named PLACEMENT POSTULATES to give u all an insights into placements and guide you through this. These blogs will contain students sharing their experience and most valuable tips which will help you in relaxing yourself during placement process. 
+							</p>
+							<a class="btn btn-primary blog text-dark" href="sections/placement-posulates/" role="button">Know more</a>
+						</div>
+						<div class="col-12 col-sm-6 blog" id="img">
+					    	<img src="assets/placement.png" data-aos="fade-left">
+					    </div>
+					</div>
+				
+				</div>
+			</div>
+			
+		</section>
+		<section class="about_us" id ="team">
+			<div class="content-box">
+				<div class="container-fluid">
+					<div class="row">
+					    <div class="col-12 col-sm-6 about team" id="img">
+					    	<img src="assets/team.png" data-aos="fade-right">
+						</div>
+						<div class="col-12 col-sm-6 para" data-aos="fade-left">
+							<h1>Our Team</h1>
+							<p class="all" ><b><i>"A road to success is always under construction."</i></b><br>
+								Keeping that in mind, we are working every day to make the lives of enrolled students and anyone associated with civil engineering at IIT-K easy. As SOCE serves as a link between enrolled Civil Engineering students, alumni, and professors at IIT-K, our efforts have always been to bring harmony in everyone's life. Our Team includes Students from different batches and professors as faculty advisors.</p>
+							<a class="btn btn-primary team text-dark" href="sections/team/" role="button">Know more</a>
+					    </div>
+					</div>
+				
+				</div>
+			</div>
+			
+		</section>
+
+	</div>
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <script>
+	    AOS.init({
+	    	offset:120,
+	    	duration:1100
+	    });
+	  </script>
+	  <script>
 		function myFunction() {
 		  document.getElementById("container").classList.toggle("change");
 		  document.getElementById("nav").classList.toggle("expand")
 		}
+		</script>
+	  <script>
+		if (screen && screen.width > 1200) { 
+			(
+		  $(".main").tiltedpage_scroll({
+			  sectionContainer: "> section",
+			  angle:50,
+			  opacity: true,              
+			  scale:true,                
+			  outAnimation:true
+		  })
+			);
+		}
+		if (screen && screen.width < 1200) {      
+			(
+				$(".main").tiltedpage_scroll({
+			  sectionContainer: "> section",
+			  angle:false,
+			  opacity: true,              
+			  scale:false,                
+			  outAnimation:true
+			})
+			);
+		}
 	</script>
-	<section class ="head">
-		<p>Our Team</p>
-	</section>
-	<section class="faculty advisor">
-			<p class="heading">FACULTY ADVISOR</p>
-			<div class="card_fac">
-				<img src="img/sir.jpg">
-				<p class="name">Chinmoy Kolay</p>
-				<p class="post">Faculty Advisor</p>
-				<p class="mobile"><a target="_blank" href="tel:05122596282"> <i class="fa fa-mobile" aria-hidden="true"></i>05122596282</a></p>
-				<ul>
-					<li>
-					  <a target="_blank" href="https://sites.google.com/view/ckolay">
-						<i class="fa fa-home" aria-hidden="true"></i>
-					</a>
-					</li>
-					<li>
-					  <a target="_blank" href="mailto:ckolay@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-				  </ul>
-			</div>
-	</section>
-	
-	<section class="cordinator">
-		<p class="heading">COORDINATOR</p>
-		<div class="card">
-			<img src="img/ankit.jpg">
-			<p class="name">Ankit Verma</p>
-			<p class="post">Coordinator</p>
-			<p class="mobile"><a target="_blank" href="tel:7988273596"> <i class="fa fa-mobile" aria-hidden="true"></i>7988273596</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/profile.php?id=100009646039570">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/ankit_verma101/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/ankit-kumar-40a1981a8/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:ankitver@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/mradul.jpg">
-			<p class="name">Mradul Chaudhary</p>
-			<p class="post">Coordinator</p>
-			<p class="mobile"><a target="_blank" href="tel:6390420251"> <i class="fa fa-mobile" aria-hidden="true"></i>6390420251</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://m.facebook.com/mradul.chaudhary.161">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/mradul.chaudhary.1105/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/mradul-chaudhary"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:mradulch@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/yashkrit.jpeg">
-			<p class="name">Yashkrit Gupta</p>
-			<p class="post">Coordinator</p>
-			<p class="mobile"><a target="_blank" href="tel:9518158631"> <i class="fa fa-mobile" aria-hidden="true"></i>9518158631</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/yashkrit.gupta/">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://instagram.com/yashkrit_gupta?igshid=mm6wh2hwimx8"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/yashkrit-gupta-8503a3145"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:yashkrit@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		
-	</section>
-	<section>
-		<p class="heading">WEB MASTERS</p>
-		<div class="card">
-			<img src="img/aryan.jpg">
-			<p class="name">Aryan Agarwal</p>
-			<p class="post">Secretary, Web</p>
-			<p class="mobile"><a target="_blank" href="tel:9638393835"> <i class="fa fa-mobile" aria-hidden="true"></i>9638393835</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/aryan.agarwal.969952">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/aryann_ag/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/aryan-agarwal-6480771b6"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:aryanag@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/devansh.jpg">
-			<p class="name">Devansh Jain</p>
-			<p class="post">Secretary, Web</p>
-			<p class="mobile"><a target="_blank" href="tel:9166052765"> <i class="fa fa-mobile" aria-hidden="true"></i>9166052765</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/devansh.jain.5817">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://instagram.com/devansh_jain2013?igshid=la8trokivu3l"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/devansh-jain-1987bb1b2"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:devanshj@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/govind.jpg">
-			<p class="name">Govind Gupta</p>
-			<p class="post">Secretary, Web</p>
-			<p class="mobile"><a target="_blank" href="tel:9454635438"> <i class="fa fa-mobile" aria-hidden="true"></i>9454635438</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/profile.php?id=100005799362676">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/thlegend_of_artist/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/govind-gupta-b96b1b197/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:govindg@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/hitesh.jpg">
-			<p class="name">Hitesh Kumar</p>
-			<p class="post">Secretary, Web</p>
-			<p class="mobile"><a target="_blank" href="tel:8824664065"> <i class="fa fa-mobile" aria-hidden="true"></i>8824664065</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/hitesh.bijarniya.58">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/nil"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://linkedin.com/nil"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:hitesh@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/rohan.jpg">
-			<p class="name">Rohan Kumar</p>
-			<p class="post">Secretary, Web</p>
-			<p class="mobile"><a target="_blank" href="tel:9431452981"> <i class="fa fa-mobile" aria-hidden="true"></i>9431452981</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/rohankj01/">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/rohankj01/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/rohankj01/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:rohankj@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/saral.jpg">
-			<p class="name">Saral Verma</p>
-			<p class="post">Secretary, Web</p>
-			<p class="mobile"><a target="_blank" href="tel:8299754128"> <i class="fa fa-mobile" aria-hidden="true"></i>8299754128</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/saral.verma.330/">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/its.easy.here/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/saral-verma-3b2b041b0/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:svsaral@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		</section>
-		<section>
-		<p class="heading">Secretary</p>
-		
-		<div class="card">
-			<img src="img/harsh.jpg">
-			<p class="name">Harsh Kumar Gautam</p>
-			<p class="post">Secretary, Events</p>
-			<p class="mobile"><a target="_blank" href="tel:7879207644"> <i class="fa fa-mobile" aria-hidden="true"></i>7879207644</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/harsh.gautam.7370">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/invites/contact/?i=t0w0pwliqhqv&utm_content=2iiwccr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:harshgau@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/nidhi.jpg">
-			<p class="name">Nidhi Kansal</p>
-			<p class="post">Secretary, Events</p>
-			<p class="mobile"><a target="_blank" href="tel:9588144840"> <i class="fa fa-mobile" aria-hidden="true"></i>9588144840</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/nidhi.kansal.2412">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/_nidhi_kansal/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:nidhik@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/navshruti.jpg">
-			<p class="name">Navshruti Singh</p>
-			<p class="post">Secretary, Events</p>
-			<p class="mobile"><a target="_blank" href="tel:7037893777"> <i class="fa fa-mobile" aria-hidden="true"></i>7037893777</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/navshruti.singh.52">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/_navshruti_singh_"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:nshruti@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/raj.jpg">
-			<p class="name">Raj Karan Kumar</p>
-			<p class="post">Secretary, Events</p>
-			<p class="mobile"><a target="_blank" href="tel:9472356692"> <i class="fa fa-mobile" aria-hidden="true"></i>9472356692</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/profile.php?id=100038130162045">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/raj_karan_3081/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:rajkaran@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/rishabh.jpg">
-			<p class="name">Rishabh Arora</p>
-			<p class="post">Secretary, Events</p>
-			<p class="mobile"><a target="_blank" href="tel:7023764361"> <i class="fa fa-mobile" aria-hidden="true"></i>7023764361</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://m.facebook.com/rishabh.arora.16752754">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/rishabh.ar0ra/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/rishabh-arora-8b2124199"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:risharo@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/sonam.jpeg">
-			<p class="name">Sonam Meena</p>
-			<p class="post">Secretary, Events</p>
-			<p class="mobile"><a target="_blank" href="tel:9783019109"> <i class="fa fa-mobile" aria-hidden="true"></i>9783019109</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/sonam.meena.14606936">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/sonamjorwal_02/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/sonam-meena-7354091b7"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:sonamm@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/yash.jpg">
-			<p class="name">Yash Laddha</p>
-			<p class="post">Secretary, Events</p>
-			<p class="mobile"><a target="_blank" href="tel:9660029912"> <i class="fa fa-mobile" aria-hidden="true"></i>9660029912</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/yash.laddha.1217">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/invites/contact/?i=z1pupthh439q&utm_content=f4t4hii"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:yladdha@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/jahnvi.jpg">
-			<p class="name">Janhavi Bhoge</p>
-			<p class="post">Secretary, Content</p>
-			<p class="mobile"><a target="_blank" href="tel:9352167667"> <i class="fa fa-mobile" aria-hidden="true"></i>9352167667</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/janhavi.bhoge.5">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/janhavinainamohanbhoge/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/janhavi-b-38b8801b2"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:janhavim@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/rohit.jpg">
-			<p class="name">Rohit Sharma</p>
-			<p class="post">Secretary, Content</p>
-			<p class="mobile"><a target="_blank" href="tel:8824791890"> <i class="fa fa-mobile" aria-hidden="true"></i>8824791890</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/profile.php?id=100003925016375">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/nil"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://linkedin.com/nil"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:rohitsh@iitk.ac.i"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/nitin.jpg">
-			<p class="name">Nitin Patil</p>
-			<p class="post">Secretary, Design</p>
-			<p class="mobile"><a target="_blank" href="tel:6263142486"> <i class="fa fa-mobile" aria-hidden="true"></i>6263142486</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/profile.php?id=100003897020422">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://instagram.com/nitin11041?igshid=avjp1ayg4xxv"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/nitin-patil-b7869b1aa"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:nitinp@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		<div class="card">
-			<img src="img/shreya.png">
-			<p class="name">Shreya Vaish</p>
-			<p class="post">Secretary, Design</p>
-			<p class="mobile"><a target="_blank" href="tel:9205601753"> <i class="fa fa-mobile" aria-hidden="true"></i>9205601753</a></p>
-			<ul>
-				<li>
-				  <a target="_blank" href="https://www.facebook.com/profile.php?id=100000947592369">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.instagram.com/rantcat__vaish/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				</li>
-				<li>
-				  <a target="_blank" href="https://www.linkedin.com/in/shreya-vaish-4694491b0/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li>
-				  <a target="_blank" href="mailto:vaishrey@iitk.ac.in"><i class="fa fa-envelope-o" aria-hidden="true"></i></i></a></li>
-			  </ul>
-		</div>
-		</section>
-	<section class="old-teams">
-		<p class="heading">Old Teams</p>
-		<ol>
-			<li><a class="links" href="../team/old-team.html">Team 2020-21</a></li>
-		</ol>
-	</section>
 	</div>
 </body>
-</html>
+</html> 
