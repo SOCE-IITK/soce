@@ -27,7 +27,7 @@ body{
 	padding-top:5vmin;
 	padding-bottom:10vmin;
     width:70vw;
-}
+}  
 .title{
     font-size:3vh;
     position: absolute;
@@ -55,23 +55,20 @@ b{
     width:20vw;
     object-fit: cover;
     object-position: top;
-    margin-bottom:2vh;
+    margin-bottom:1vh ;
     max-height:initial;
 }
 .img1{
     float:left;
     margin-right:2vw;
-    margin-bottom:2vw;
 }
 .img2{
     float:right;
     margin-left:2vw;
-    margin-bottom:2vw;
 }
 .img3{
     margin:0vw 50vw 0vw 30vw;
     width:20vw;
-    margin-bottom:2vw;
 }
 .links{
     color:rgb(255, 145, 2);
@@ -79,7 +76,7 @@ b{
     text-shadow: 1px 1px rgba(0,0,0,1);
 }
 .memetext{
-    display:block;
+    display:block; 
     width: 100vw;
     text-align: center;
     margin-right:10vw;
@@ -115,22 +112,24 @@ b{
         margin-bottom:2vw;
     }
     .img1{
+        margin:0vw 10vw 0vw 10vw;
         float:left;
         margin-right:initial;
         margin-bottom:2vw;
     }
     .img2{
+        margin:0vw 10vw 0vw 10vw;
         float:left;
         margin-left:initial;
         margin-bottom:2vw;
     }
     .img3{
-        margin:0vw 10vw 0vw 10vw;
+        margin:0vw 10vw 2vw 10vw;
         width:80vw;
         margin-bottom:2vw;
     }
     .memetext{
-        display:block;
+        display:block; 
         width: 80vw;
         text-align: center;
     }
