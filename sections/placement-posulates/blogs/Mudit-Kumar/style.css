@@ -55,23 +55,23 @@ b{
     width:20vw;
     object-fit: cover;
     object-position: top;
-    margin-bottom:1vh ;
+    margin-bottom:2vh;
     max-height:initial;
 }
 .img1{
     float:left;
     margin-right:2vw;
-    margin-bottom:1vw;
+    margin-bottom:2vw;
 }
 .img2{
     float:right;
     margin-left:2vw;
-    margin-bottom:1vw;
+    margin-bottom:2vw;
 }
 .img3{
     margin:0vw 50vw 0vw 30vw;
     width:20vw;
-    margin-bottom:1vw;
+    margin-bottom:2vw;
 }
 .links{
     color:rgb(255, 145, 2);
@@ -112,22 +112,22 @@ b{
         width:80vw;
         margin:initial;
         max-height:initial;
-        margin-bottom:1vw;
+        margin-bottom:2vw;
     }
     .img1{
         float:left;
         margin-right:initial;
-        margin-bottom:1vw;
+        margin-bottom:2vw;
     }
     .img2{
         float:left;
         margin-left:initial;
-        margin-bottom:1vw;
+        margin-bottom:2vw;
     }
     .img3{
         margin:0vw 10vw 0vw 10vw;
         width:80vw;
-        margin-bottom:1vw;
+        margin-bottom:2vw;
     }
     .memetext{
         display:block;
