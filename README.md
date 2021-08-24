@@ -1,3 +1,11 @@
+# SOCE-IITK
+
+
+<code><img height="80" src = "assets/soce_logo.png"></code>
+#### This is Main web page of [SOCE](https://soce-iitk.github.io/soce/), a student society in Civil Engineering Department at Indian of Institute Technology Kanpur
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/SOCE-IITK/soce/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
