@@ -5,8 +5,8 @@
 #### This is Main web page of [SOCE](https://soce-iitk.github.io/soce/), a student society in Civil Engineering Department at Indian of Institute Technology Kanpur
 
 
-- <code><img height="30" src = "assets/soce_logo.png"></code> [About SoCE](https://soce-iitk.github.io/soce/sections/about/)
-- <code><img height="30" src = "assets/soce_logo.png"></code> [Events](https://soce-iitk.github.io/soce/sections/events/)
+- <code><img height="30" src = "assets/soce_logo.png"></code> [About SoCE](sections/about/)
+- <code><img height="30" src = "assets/soce_logo.png"></code> [Events](sections/events/)
 - <code><img height="30" src = "assets/soce_logo.png"></code> [Faculty](sections/faculty/)
 - <code><img height="30" src = "assets/soce_logo.png"></code> [Departmental Achievements](sections/departmental%20achievements/)
 - <code><img height="30" src = "assets/soce_logo.png"></code> [Student's Section](sections/student's%20section/)
