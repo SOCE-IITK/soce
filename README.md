@@ -5,9 +5,18 @@
 #### This is Main web page of [SOCE](https://soce-iitk.github.io/soce/), a student society in Civil Engineering Department at Indian of Institute Technology Kanpur
 
 
+- <code><img height="30" src = "assets/soce_logo.png"></code> [About SoCE](sections/about/)
+- <code><img height="30" src = "assets/soce_logo.png"></code> [Events](sections/events/)
+- <code><img height="30" src = "assets/soce_logo.png"></code> [Faculty](sections/faculty/)
+- <code><img height="30" src = "assets/soce_logo.png"></code> [Departmental Achievements](sections/departmental achievements/)
+- <code><img height="30" src = "assets/soce_logo.png"></code> [Student's Section](sections/student's section/)
+- <code><img height="30" src = "assets/soce_logo.png"></code> [Placement Posulates](sections/placement-posulates/)
+- <code><img height="30" src = "assets/soce_logo.png"></code> [Team](sections/team/)
+
 
 
 <code>
+
 <!--- ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/SOCE-IITK/soce/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -47,5 +56,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out
 
 ----> </code>
-
-
