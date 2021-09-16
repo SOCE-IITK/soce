@@ -15,7 +15,8 @@
 
 
 
-<code><!---General_Instructions_on_Github_Pages--- ## Welcome to GitHub Pages
+<code>
+  <!---General_Instructions_on_Github_Pages--- ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/SOCE-IITK/soce/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
