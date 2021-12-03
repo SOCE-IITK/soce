@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu+Condensed&display=swap');
 body{
-    background-image: url("../../assets/5570834-modified.jpg");
+    background-image: url("../../assets/projects-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -56,6 +56,6 @@ h1{
     .projects b{
         font-size: 1rem;
     }
-    
+
 
 }
