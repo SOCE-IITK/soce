@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu+Condensed&display=swap');
+body{
+    background-image: url("/assets/5570834-modified.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: auto;
+}
+
+h1{
+    font-family:"northwestbold";
+    font-size: 4rem;
+}
+
+.projects{
+
+    line-height: 1.2;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 8%;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+
+.projects h1{
+    margin-top: 5%;
+    color: #fff;
+    font-size: 2rem;
+    /* text-decoration: underline; */
+    font-family: sans-serif;
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+}
+
+.projects b{
+    font-size: 1.5rem;
+}
+
+.projects h4{
+    font-size: 1.2rem;
+}
+
+.kukkar{
+    margin-top: -1%;
+}
+
+
+@media(max-width:768px){
+    .projects h1{
+        font-size: 1rem;
+    }
+    .projects h4{
+        font-size: 0.8rem;
+    }
+    .projects b{
+        font-size: 1rem;
+    }
+    
+
+}
