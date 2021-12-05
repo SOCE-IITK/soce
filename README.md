@@ -10,6 +10,7 @@
 -   <code><img height="30" src = "assets/soce_logo.png"></code> [Departmental Achievements](sections/departmental%20achievements/)
 -   <code><img height="30" src = "assets/soce_logo.png"></code> [Student's Section](sections/student's%20section/)
 -   <code><img height="30" src = "assets/soce_logo.png"></code> [Placement Posulates](sections/placement-posulates/)
+-   <code><img height="30" src = "assets/soce_logo.png"></code> [Projects](sections/projects/)
 -   <code><img height="30" src = "assets/soce_logo.png"></code> [Team](sections/team/)
 
 <code>
