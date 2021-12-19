@@ -1,4 +1,4 @@
-# SoCE-IITK 2020-21 Website 
+# SoCE-IITK 2020-21 Website (Archieved)
 
 ## [New Website at http://soce-iitk.herokuapp.com/]
 
